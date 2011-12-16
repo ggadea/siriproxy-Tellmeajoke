@@ -5,7 +5,7 @@ require 'siri_objects'
 # Remember to add other plugins to the "config.yml" file if you create them!
 ######
 
-class SiriProxy::Plugin::tellmeajoke < SiriProxy::Plugin
+class SiriProxy::Plugin::Tellmeajoke < SiriProxy::Plugin
   attr_accessor :phrase_file
   
   def initialize(config = {})
