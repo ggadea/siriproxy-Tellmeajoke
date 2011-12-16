@@ -1,4 +1,4 @@
 source "http://rubygems.org"
 
-# Specify your gem's dependencies in meaning-of-life.gemspec
+# Specify your gem's dependencies in tellmeajoke.gemspec
 gemspec
