@@ -2,15 +2,15 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "siriproxy-tellmeajoke"
+  s.name        = "siriproxy-Tellmeajoke"
   s.version     = "0.0.1" 
   s.authors     = ["ggadea"]
   s.email       = [""]
   s.homepage    = ""
   s.summary     = %q{Tell me a Joke Siri Proxy Plugin}
-  s.description = %q{This is Tell me a joke plugin. It intercepts the phrase containing "tell me a joke" and responds with a random joke. Definitions are stored in the file "joke.txt". }
+  s.description = %q{This is Tell me a joke plugin. It intercepts the phrase containing "a joke" and responds with a random joke. Definitions are stored in the file "joke.txt". }
 
-  s.rubyforge_project = "siriproxy-tellmeajoke"
+  s.rubyforge_project = "siriproxy-Tellmeajoke"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
