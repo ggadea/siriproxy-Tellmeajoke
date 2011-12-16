@@ -1,7 +1,6 @@
 # Sample config. Add this to your config.yml in your siri-proxy install path.
 
     - name: 'MeaningOfLife'
-      git: 'git://github.com/vic10us/siriproxy-meaningoflife.git'
       git: 'git://github.com/ggadea/siriproxy-tellmeajoke.git'
       phrase_file: '' #Optional
 
