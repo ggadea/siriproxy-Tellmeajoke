@@ -2,5 +2,6 @@
 
     - name: 'MeaningOfLife'
       git: 'git://github.com/vic10us/siriproxy-meaningoflife.git'
+      git: 'git://github.com/ggadea/siriproxy-tellmeajoke.git'
       phrase_file: '' #Optional
 

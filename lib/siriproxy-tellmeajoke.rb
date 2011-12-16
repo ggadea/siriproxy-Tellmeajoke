@@ -5,7 +5,7 @@ require 'siri_objects'
 # Remember to add other plugins to the "config.yml" file if you create them!
 ######
 
-class SiriProxy::Plugin::MeaningOfLife < SiriProxy::Plugin
+class SiriProxy::Plugin::tellmeajoke < SiriProxy::Plugin
   attr_accessor :phrase_file
   
   def initialize(config = {})
@@ -19,15 +19,15 @@ class SiriProxy::Plugin::MeaningOfLife < SiriProxy::Plugin
     if File.exist? x
       self.phrase_file = x
     else
-      self.phrase_file = File.dirname(File.dirname(__FILE__))+"/mol.txt"
+      self.phrase_file = File.dirname(File.dirname(__FILE__))+"/joke.txt"
     end
-  #  ::MeaningOfLife.configure do |config|
+  #  ::tellmeajoke.configure do |config|
   #    config.phrase_file = @config['phrase_file'] 
   #  end
     
   end
 
-  listen_for /meaning of life/i do
+  listen_for /a joke/i do
     lines = IO.readlines(self.phrase_file)
     rl = rand(lines.count-1)
     say lines[rl]
