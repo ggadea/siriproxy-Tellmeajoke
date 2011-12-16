@@ -1,6 +1,6 @@
 # Sample config. Add this to your config.yml in your siri-proxy install path.
 
-    - name: 'tellmeajoke'
+    - name: 'Tellmeajoke'
       git: 'git://github.com/ggadea/siriproxy-tellmeajoke.git'
       phrase_file: '' #Optional
 
